@@ -36,7 +36,7 @@ def banner():
 
 #https://securedapi.confirmtkt.com/api/platform/register?mobileNumber=
 
-how_many = input("How many numbers do you want to bomb? ")
+how_many = int(input("How many numbers do you want to bomb? "))
 numbers = [] 
 for i in range(how_many):
     temp = str(input(f"Enter the number {i+1}: "))
